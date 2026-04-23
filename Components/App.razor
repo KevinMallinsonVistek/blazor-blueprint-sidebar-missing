@@ -1,0 +1,26 @@
+@page "/"
+@using BlazorBlueprint.Components
+@using BlazorBlueprint.Primitives
+
+<!DOCTYPE html>
+<html lang="en">
+<head title="Bug Repro">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link href="css/theme.css" rel="stylesheet" />
+    <link href="_content/BlazorBlueprint.Components/blazorblueprint.css" rel="stylesheet" />
+</head>
+<body>
+    <BbSidebarProvider>
+        <BbSidebar>
+            <BbSidebarHeader>
+                <span class="p-2 font-semibold">Sidebar</span>
+            </BbSidebarHeader>
+        </BbSidebar>
+        <BbSidebarInset>
+            <p class="p-4">Sidebar visible.</p>
+        </BbSidebarInset>
+    </BbSidebarProvider>
+</body>
+</html>

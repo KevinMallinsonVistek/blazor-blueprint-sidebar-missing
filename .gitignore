@@ -1,0 +1,26 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+
+# Node
+node_modules/
+*.tsbuildinfo
+
+# Tailwind CLI caches
+**/.last-install
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.lscache
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Tailwind
+wwwroot/css/app.css
+wwwroot/css/styles.css
