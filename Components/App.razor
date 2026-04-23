@@ -10,6 +10,7 @@
     <base href="/" />
     <link href="css/theme.css" rel="stylesheet" />
     <link href="_content/BlazorBlueprint.Components/blazorblueprint.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
 </head>
 <body>
     <BbSidebarProvider>
@@ -19,8 +20,12 @@
             </BbSidebarHeader>
         </BbSidebar>
         <BbSidebarInset>
-            <p class="p-4">Sidebar visible.</p>
+            <p class="p-4">Sidebar not visible.</p>
         </BbSidebarInset>
     </BbSidebarProvider>
+
+    <div id="example-hidden" class="hidden">
+        Hidden div needed for repro.
+    </div>
 </body>
 </html>
